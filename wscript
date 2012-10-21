@@ -81,8 +81,7 @@ def configure(conf):
 
 def build(bld):
     bld.stlib(source = 'mono.d',
-              target = 'mono-d',
-              install_path = '${PREFIX}/lib')
+              target = 'mono-d')
 
 def dist(dst):
     '''makes a tarball for redistributing the sources'''
